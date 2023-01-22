@@ -1,1 +1,1 @@
-80wx.la/
+#Y6S6K6.github.io
