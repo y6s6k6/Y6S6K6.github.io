@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>杨尚坤的个人博客</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
 
-    <div style=" background: url(https://i.328888.xyz/2023/01/25/bptZZ.png) no-repeat; padding: 200px; line-height: 1;  width: 100%; }">
-      
-            
-          
-        <p>
+<body id="m_body">
+	<div style="position: absolute; z-index: 10">
+<p>
             <h1>你可以通过以下网站找到需要的资源哦！</h1>
         </p>
         <ul>
@@ -30,6 +22,15 @@
             <li> <a href="https://cupfox.app/"><h4>电影线路2</h4></a> </li>
             <li> <a href="https://www.5ying.fun/"><h4>电影线路3</h4></a> </li>
         </ul>
-    </div》
+    </div>
+<css-doodle use="var(--rule)"></css-doodle>
+<script src="css-doodle.min.js"></script>
+<script>
+    function remove_attr() {
+        let c = document.getElementsByTagName('css-doodle')[0].doodle.lastChild.firstChild;
+        c.style.boxShadow = 'none';
+    }
+    remove_attr()
+</script>
 </body>
 </html>
